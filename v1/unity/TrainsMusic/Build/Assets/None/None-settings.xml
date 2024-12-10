@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ApplicationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <activityId>Train Symphony</activityId>
+  <logSettings>
+    <isLogging>true</isLogging>
+    <numberOfLogs>10</numberOfLogs>
+  </logSettings>
+  <assetSettings>
+    <languages>
+      <string>en-US</string>
+    </languages>
+    <prefixFileName />
+    <suffixFileName />
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </assetSettings>
+  <displaySettings>
+    <numberOfDisplays>1</numberOfDisplays>
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </displaySettings>
+  <whiteScreenSettings>
+    <onScreenMessage />
+    <durationMinutes>30</durationMinutes>
+    <isTouchInput>true</isTouchInput>
+    <isMouseInput>true</isMouseInput>
+    <isAxisInput>true</isAxisInput>
+    <isKeypressInput>true</isKeypressInput>
+    <isSerialInput>true</isSerialInput>
+    <serialInputCount>10</serialInputCount>
+    <isUdpInput>false</isUdpInput>
+    <udpInputCount>1</udpInputCount>
+  </whiteScreenSettings>
+  <serialConnectionSettings id="ButtonsLEDs">
+    <comPort>7</comPort>
+    <baudRate>9600</baudRate>
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </serialConnectionSettings>
+  <alignmentSettings />
+  <toggleMode>false</toggleMode>
+  <snoreDelaySeconds>10</snoreDelaySeconds>
+  <snoreIntervalSeconds>3</snoreIntervalSeconds>
+</ApplicationSettings>
